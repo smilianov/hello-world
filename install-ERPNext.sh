@@ -16,7 +16,7 @@ NC='\033[0m' # No Color
 
 # Configuration variables (modify these as needed)
 FRAPPE_USER="frappe"
-SITE_NAME="erptest.ess.bg"
+SITE_NAME="erptest.local"
 MYSQL_ROOT_PASSWORD=""  # Will be prompted if not set
 NODE_VERSION="18"
 ERPNEXT_BRANCH="version-15"
