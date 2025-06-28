@@ -1,6 +1,6 @@
 #!/bin/bash
-
-
+# Script by GuN®
+# Edit/Add translations
 # nano /home/frappe/frappe-bench/apps/erpnext/erpnext/translations/bg.csv
 # nano /home/frappe/frappe-bench/apps/frappe/frappe/translations/bg.csv
 
