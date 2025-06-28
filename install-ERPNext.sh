@@ -1,7 +1,7 @@
 #!/bin/bash
 # ERPNext v15 One-Click Installation Script for Ubuntu 24.04
 # This script automates the complete installation of ERPNext v15 on a fresh Ubuntu 24.04 system
-# Author: Auto-generated based on community guides
+# Author: GuN®! Script is generated based on community guides
 # Version: 1.6 - Created: June 25, 2025 12:42 EEST (Europe/Sofia)
 # Fixed nginx log format issue, systemd configuration prompt issue, HRMS = No by default
 
