@@ -17,6 +17,8 @@
 
 
 # ErpNG
+## /home/frappe/frappe-bench/apps/erpnext/erpnext/crm/workspace/crm/crm.json
+
 ## Edit translation
 - `nano /home/frappe/frappe-bench/apps/frappe/frappe/translations/bg.csv`
 ## clear Frappe’s caches (including translations)
