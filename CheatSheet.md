@@ -12,5 +12,5 @@
 ## Git
 - `git status`: Check repository status
 - `git commit -m "msg"`: Commit changes with a message
-My Commands
+## My Commands
 - `grep -r Уволни /home/frappe/frappe-bench`:Search in file text for word "Уволни"
