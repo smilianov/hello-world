@@ -14,7 +14,11 @@
 - `git commit -m "msg"`: Commit changes with a message
 ## My Commands
 - `grep -r Уволни /home/frappe/frappe-bench`:Search in file text for word "Уволни"
-## ErpNG
+
+
+# ErpNG
+## Edit translation
+- `nano /home/frappe/frappe-bench/apps/frappe/frappe/translations/bg.csv`
 ## clear Frappe’s caches (including translations)
 - `bench --site erptest.ess.bg clear-cache`
 
