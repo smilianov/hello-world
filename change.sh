@@ -1,4 +1,6 @@
 #!/bin/bash
+# Script by GuN®
+# Change MachineID of Ubuntu server after clone VM.
 
 # Check if script is run as root
 if [[ $EUID -ne 0 ]]; then
