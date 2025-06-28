@@ -1,7 +1,7 @@
 # My Command Line CheatShit
 
 ## File Management
-- `ls -la`: List all files, including hidden, in long format
+- `ls -lash`: List all files, including hidden, in long format
 - `cd ~/path`: Change to a directory (e.g., cd ~/projects)
 - `rm -rf dir`: Delete directory and contents (use cautiously)
 
