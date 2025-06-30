@@ -4,6 +4,7 @@
 - `ls -lash`: List all files, including hidden, in long format
 - `cd ~/path`: Change to a directory (e.g., cd ~/projects)
 - `rm -rf dir`: Delete directory and contents (use cautiously)
+- `sudo chmod -R u+rwx /srv/dev-disk-by-uuid-08a6cb6b-5e4b-473c-9c86-ae436ea37039/work/Gun/Temp': Change ownership of Directory
 
 ## Networking
 - `ping google.com`: Test connectivity to a host
