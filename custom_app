@@ -1,0 +1,5 @@
+cd /home/frappe/frappe-bench
+bench setup requirements
+bench --site erptest.ess.bg install-app custom_app
+bench --site erptest.ess.bg migrate
+sudo supervisorctl restart all
