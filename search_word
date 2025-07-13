@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# This script prompts the user for a search term and then searches for it
+# recursively in the /home/frappe/frappe-bench directory.
+
+# --- Configuration ---
+# The directory you want to search in.
+# You can change this path if needed.
+SEARCH_DIRECTORY="/home/frappe/frappe-bench"
+
+# --- Main Script ---
+
+# Prompt the user to enter the search word or phrase.
+# The -p flag displays a prompt without a trailing newline.
+# The -r flag prevents backslash escapes from being interpreted.
+read -p "Enter the search word or phrase: " search_term
+
+# Check if the user actually entered something.
+# The -z operator checks if the string is empty.
+if [ -z "$search_term" ]; then
+  echo
+  echo "Error: No search term provided. Exiting."
+  exit 1
+fi
+
+# Check if the target directory exists.
+if [ ! -d "$SEARCH_DIRECTORY" ]; then
+    echo
+    echo "Error: Directory '$SEARCH_DIRECTORY' not found. Please check the path."
+    exit 1
+fi
+
+
+# Inform the user about the action being taken.
+echo
+echo "Searching for \"$search_term\" in all files under $SEARCH_DIRECTORY..."
+echo "-----------------------------------------------------------------"
+
+# Execute the grep command.
+# -r: Performs a recursive search.
+# -i: (Optional) Uncomment the line below to make the search case-insensitive.
+# grep -ri "$search_term" "$SEARCH_DIRECTORY"
+#
+# The variable $search_term is enclosed in double quotes to ensure that
+# phrases with spaces are treated as a single search pattern.
+grep -r "$search_term" "$SEARCH_DIRECTORY"
+
+echo "-----------------------------------------------------------------"
+echo "Search complete."
